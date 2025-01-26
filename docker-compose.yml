@@ -12,7 +12,7 @@ services:
       - NEXT_PUBLIC_API_URL=http://scraperr_api:8000 # your API URL
       - SERVER_URL=http://scraperr_api:8000 # your docker container API URL
     ports:
-      - 80:3000
+      - 7766:7766
     networks:
       - web
   scraperr_api:
