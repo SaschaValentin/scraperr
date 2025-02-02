@@ -28,7 +28,7 @@ services:
       - ACCESS_TOKEN_EXPIRE_MINUTES=600 # access token expire minutes
     container_name: scraperr_api
     ports:
-      - 8000:8000
+      - 7799:7799
     volumes:
       - "$PWD/data:/project/data"
       - /var/run/docker.sock:/var/run/docker.sock
