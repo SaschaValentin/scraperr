@@ -12,7 +12,7 @@ services:
       - NEXT_PUBLIC_API_URL=https://scraperrapi.mediacomvalentin.de # your API URL
       - SERVER_URL=https://scraperrapi.mediacomvalentin.de # your docker container API URL
     ports:
-      - 80:3777
+      - 3777:3777
     networks:
       - web
   scraperr_api:
