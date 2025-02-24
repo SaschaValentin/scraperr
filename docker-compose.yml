@@ -9,10 +9,10 @@ services:
     container_name: scraperr
     command: ["npm", "run", "start"]
     environment:
-      - NEXT_PUBLIC_API_URL=http://scraperr_api:8000 # your API URL
-      - SERVER_URL=http://scraperr_api:8000 # your docker container API URL
+      - NEXT_PUBLIC_API_URL=https://scraperrapi.mediacomvalentin.de # your API URL
+      - SERVER_URL=https://scraperrapi.mediacomvalentin.de # your docker container API URL
     ports:
-      - 80:3000
+      - 80:3777
     networks:
       - web
   scraperr_api:
